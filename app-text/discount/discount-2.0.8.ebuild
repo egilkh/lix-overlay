@@ -15,6 +15,9 @@ KEYWORDS="~x86 ~amd64"
 IUSE="minimal"
 RESTRICT="mirror"
 
+DEPEND=""
+RDEPEND="${DEPEND}"
+
 src_compile() {
 	local myconf
 
